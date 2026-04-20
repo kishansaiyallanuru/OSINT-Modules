@@ -237,6 +237,4 @@ For practice, the same techniques can be applied to:
 - Any university website  
 - Any public organization domain  
 
-This helps in improving search skills and understanding how publicly available data can be analyzed effectively.
-
   

@@ -11,7 +11,7 @@ For this investigation, the username **"SumanthOffl"** was considered as the tar
 ### Search Query
 - site:twitter.com "SumanthOffl"
 
-### Screenshot Evidence
+### Searching Username In Twitter
 ![Twitter Discovery](./Images/Day2_Task1_01.jpg)
 
 ### Observation
@@ -32,7 +32,7 @@ The target username is successfully identified on Twitter, enabling further inte
 ### Search Query
 - site:instagram.com "SumanthOffl"
 
-### Screenshot Evidence
+### Searching Username In Instagram
 ![Instagram Discovery](./Images/Day2_Task1_02.jpg)
 
 ### Observation
@@ -49,7 +49,7 @@ Cross-platform inconsistency suggests that identity correlation requires deeper 
 
 ## Task 3: Profile Intelligence (Twitter Analysis)
 
-### Screenshot Evidence
+### Twitter Profile Analysis
 ![Profile Intelligence](./Images/Day2_Task2_01.jpg)
 
 ### Data Collected

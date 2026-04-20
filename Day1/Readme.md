@@ -1,218 +1,242 @@
-# Day 1 – OSINT Workflow
-## Google Dorking, Search Engines & Publicly Available Resources
+# Day 1 – OSINT Workflow  
+## Google Dorking, Search Engines & Publicly Available Resources  
 
----
 
-## 1. Objective
-To perform open-source intelligence gathering using Google Dorking techniques and extract publicly available information.
+## 1. Objective  
 
----
+In this task, I performed Open-Source Intelligence (OSINT) using Google Dorking techniques. The goal was to understand how to refine search queries step by step and extract useful public information from the internet.
 
-## 2. Target
-Primary Target: Akhil KJ  
-Reference Domain: amrita.edu  
 
----
+## 2. Target  
 
-## 3. Tools Used
-- Google Search Engine
-- DuckDuckGo
-- Bing
+- **Primary Target:** Akhil KJ  
+- **Reference Domain:** amrita.edu  
 
----
 
-## 4. Workflow
 
-### Step 1: Normal Search
+## 3. Tools Used  
 
-**Query Used:**
-Akhil KJ
+- Google Search Engine  
+- DuckDuckGo  
+- Bing  
 
-**Tool Used:**
-Google
+  
 
-**Purpose:**
-To perform a basic search and observe general results.
+## 4. Workflow  
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- Multiple results found
-- Includes unrelated individuals
-- Partial matches observed
+## Step 1: Performing a Normal Search  
 
-**Result:**
-Broad and less accurate data retrieved.
+**Query I used:**  
+Akhil KJ  
 
----
+**Tool I used:**  
+Google  
 
-### Step 2: Exact Match Search
+**What I did:**  
+I started with a simple search without applying any filters to see how general results appear.
 
-**Query Used:**
-"Akhil KJ"
+**Screenshot:**  
+![Step 1](Images/Step1.png)
 
-**Tool Used:**
-Google
+**What I observed:**  
+- I got a large number of results  
+- Many results were not related to my target  
+- Some results only matched part of the name (Akhil or KJ)  
+- Profiles from different domains like LinkedIn, hospitals, etc., appeared  
 
-**Purpose:**
-To refine results using exact phrase matching.
+**What I understood:**  
+This search gave very broad results and included a lot of unwanted data. It showed me that normal searching is not enough for accurate OSINT.
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- More accurate results
-- Reduced irrelevant data
+## Step 2: Using Exact Match Search  
 
-**Result:**
-Improved precision in search results.
+**Query I used:**  
+"Akhil KJ"  
 
----
+**Tool I used:**  
+Google  
 
-### Step 3: Context-Based Search
+**What I did:**  
+I used quotes to search for the exact name.
 
-**Query Used:**
-"Akhil KJ" "Amrita"
+**Screenshot:**  
+![Step 2](Images/Step2.png)
 
-**Tool Used:**
-Google
+**What I observed:**  
+- Results became more relevant  
+- Exact name matches were shown  
+- Irrelevant results reduced  
+- Social media and specific profiles appeared  
 
-**Purpose:**
-To narrow results using additional context.
+**What I understood:**  
+Using quotes helps in improving accuracy by forcing Google to match the exact phrase.
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- Results linked to Amrita institution
-- Better identification of target
+## Step 3: Adding Context to the Search  
 
-**Result:**
-More relevant and filtered output.
+**Query I used:**  
+"Akhil KJ" "Amrita"  
 
----
+**Tool I used:**  
+Google  
 
-### Step 4: Site-Based Search
+**What I did:**  
+I added the keyword "Amrita" to connect the person with an institution.
 
-**Query Used:**
-site:amrita.edu "Akhil KJ"
+**Screenshot:**  
+![Step 3](Images/Step3.png)
 
-**Tool Used:**
-Google
+**What I observed:**  
+- Results were related to Amrita Vishwa Vidyapeetham  
+- Faculty profile links appeared  
+- It became easier to identify the correct person  
 
-**Purpose:**
-To search within a specific domain.
+**What I understood:**  
+Adding context helps in filtering out unrelated people and improves the quality of results.
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- Results only from amrita.edu
-- Official data sources identified
+## Step 4: Searching Within a Specific Website  
 
-**Result:**
-Verification through trusted domain.
+**Query I used:**  
+site:amrita.edu "Akhil KJ"  
 
----
+**Tool I used:**  
+Google  
 
-### Step 5: Filetype Search
+**What I did:**  
+I restricted the search to only the amrita.edu domain.
 
-**Query Used:**
-"Akhil KJ" filetype:pdf
+**Screenshot:**  
+![Step 4](Images/Step4.png)
 
-**Tool Used:**
-Google
+**What I observed:**  
+- All results were from the official Amrita website  
+- Faculty profiles and official pages appeared  
+- Information looked more reliable  
 
-**Purpose:**
-To locate documents related to the target.
+**What I understood:**  
+Using the `site:` operator helps in getting trusted and official information.
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- PDF documents found
-- Academic or official files visible
+## Step 5: Finding Documents Using Filetype  
 
-**Result:**
-Access to structured documents.
+**Query I used:**  
+"Akhil KJ" filetype:pdf  
 
----
+**Tool I used:**  
+Google  
 
-### Step 6: Email Discovery
+**What I did:**  
+I searched for PDF documents related to the target.
 
-**Query Used:**
-site:amrita.edu "@amrita.edu"
+**Screenshot:**  
+![Step 5](Images/Step5.png)
 
-**Tool Used:**
-Google
+**What I observed:**  
+- PDF documents like lists, reports, and academic files appeared  
+- Some documents contained structured information  
+- Useful details were available inside these files  
 
-**Purpose:**
-To identify publicly available email addresses.
+**What I understood:**  
+Filetype search helps in finding hidden or less visible data in documents.
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- Email IDs extracted
-- Faculty and staff contacts visible
+## Step 6: Discovering Email Information  
 
-**Result:**
-Exposure of organizational email structure.
+**Query I used:**  
+site:amrita.edu "@amrita.edu"  
 
----
+**Tool I used:**  
+Google  
 
-### Step 7: Keyword Combination
+**What I did:**  
+I searched for email addresses within the domain.
 
-**Query Used:**
-"Akhil KJ" "Amrita" "CSE"
+**Screenshot:**  
+![Step 6](Images/Step6.png)
 
-**Tool Used:**
-Google
+**What I observed:**  
+- Multiple email IDs were visible  
+- A common email format was identified  
+- Contact-related pages appeared  
 
-**Purpose:**
-To increase search accuracy using multiple keywords.
+**What I understood:**  
+This helps in understanding how email structures work in an organization.
 
-**Screenshot:**
-(Add screenshot here)
+  
 
-**Observation:**
-- Highly specific results
-- Minimal irrelevant data
+## Step 7: Using Multiple Keywords  
 
-**Result:**
-Precise identification of target.
+**Query I used:**  
+"Akhil KJ" "Amrita" "Cyber Security"  
 
----
+**Tool I used:**  
+Google  
 
-### Step 8: Alternative Search Engines
+**What I did:**  
+I combined multiple keywords to make the search more specific.
 
-**Tools Used:**
-- DuckDuckGo
-- Bing
+**Screenshot:**  
+![Step 7](Images/Step7.png)
 
-**Purpose:**
-To compare results across different search engines.
+**What I observed:**  
+- Results were highly specific  
+- Cyber Security-related profiles appeared  
+- Very few irrelevant results  
 
-**Screenshot:**
-(Add screenshot here)
+**What I understood:**  
+Combining multiple keywords gives very accurate and targeted results.
 
-**Observation:**
-- Different indexing results
-- Some unique findings
+  
 
-**Result:**
-Improved coverage of information.
+## Step 8: Using Alternative Search Engines  
 
----
+**Tools I used:**  
+- DuckDuckGo  
+- Bing  
 
-## 5. Conclusion
+**What I did:**  
+I repeated similar searches in other search engines.
 
-Google Dorking techniques significantly improve the accuracy and efficiency of OSINT investigations. By refining queries using operators like quotes, site filters, and file types, it is possible to extract relevant and hidden public data effectively.
+**Screenshots:**  
+![DuckDuckGo](Images/Step8_1.png)  
+Using DuckDuckGo
+![Bing](Images/Step8_2.png)
+Bing
 
----
+**What I observed:**  
+- Results were slightly different from Google  
+- Some unique links were found  
+- DuckDuckGo showed fewer personalized results  
 
-## 6. Practice Note
+**What I understood:**  
+Using multiple search engines helps in getting better coverage and finding additional information.
 
-For practice scenarios, the target can be:
-crpf.gov.in or any chosen domain.
+  
+
+## 5. Conclusion  
+
+From this task, I understood that simple searching is not enough for OSINT. By applying Google Dorking techniques step by step, I was able to refine the results and extract more useful and accurate information.
+
+Each technique, like exact match, site filtering, and filetype search, plays an important role in improving the quality of results. Also, using multiple search engines helps in discovering additional data.
+
+  
+
+## 6. Practice Note  
+
+For practice, the same techniques can be applied to:  
+
+- crpf.gov.in  
+- Any university website  
+- Any public organization domain  
+
+This helps in improving search skills and understanding how publicly available data can be analyzed effectively.
+
+  

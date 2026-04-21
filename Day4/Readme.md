@@ -168,7 +168,7 @@ Identity relationships established
 
 ### Step 10: Final Visualization
 
-**Tool Used:** Maltego  
+**Tool Used:** SpiderFoot  
 
 **Screenshot:**
 ![Graph Visualization](Images/graph.png)

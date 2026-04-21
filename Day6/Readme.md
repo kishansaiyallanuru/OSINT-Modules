@@ -7,7 +7,7 @@ To identify hidden services on the dark web using search engines.
 
 ---
 
-## Screenshot 1:
+## Ahmia Search Engine Interface:
 Ahmia search engine homepage opened using Tor Browser.
 
 ![Ahmia Home](./Images/Day6_Task1_01.jpg)
@@ -18,7 +18,7 @@ Observation:
 
 ---
 
-## Screenshot 2:
+## Keyword Search Execution:
 Keyword search performed.
 
 ![Search Keyword](./Images/Day6_Task1_02.jpg)
@@ -29,7 +29,7 @@ Keyword search performed.
 
 ---
 
-## Screenshot 3:
+## Search Results with .onion Links:
 Search results showing .onion links.
 
 ![Search Results](./Images/Day6_Task1_03.jpg)
@@ -66,7 +66,7 @@ Search results showing .onion links.
 
 ---
 
-## Screenshot 2:
+## Accessed Cybersecurity Onion Website:
 Opened website homepage
 
 ![Onion Website](./Images/Day6_Task2_01.jpg)
@@ -111,7 +111,7 @@ Opened website homepage
 
 ---
 
-## Screenshot 4:
+## Aleph Open Search – Results View:
 Search results page
 
 ![Aleph Search](./Images/Day6_Task3_01.jpg)
@@ -160,21 +160,21 @@ The results include both **surface web and dark web (.onion) sources**, showing 
 
 ---
 
-## Screenshot 1:
+## Ahmia Search Engine – Query Input:
 Ahmia search homepage with query
 
 ![Ahmia Search](./Images/Day6_Task4_01.jpg)
 
 ---
 
-## Screenshot 2:
+## Ahmia Search Results for Cybersecurity Forums:
 Search results showing multiple cybersecurity-related onion links
 
 ![Search Results](./Images/Day6_Task4_02.jpg)
 
 ---
 
-## Screenshot 3:
+## Cybersecurity Forum Page (.onion):
 Opened cybersecurity forum/directory page
 
 ![Forum Page](./Images/Day6_Task4_03.jpg)
@@ -218,3 +218,64 @@ The pages loaded successfully, though slightly slow due to Tor network latency.
 - Identified presence of **cybersecurity topics, resources, and community listings**
 - Understood how information and communities are organized in the dark web environment  
 ---
+## TASK 5: BREACH / LEAK DATA UNDERSTANDING
+
+Observation:
+
+- Commonly exposed data on the dark web includes email addresses, usernames, phone numbers, and organizational details.
+- In some cases, leaked datasets may also contain passwords (hashed or plain), internal documents, or database records.
+
+Analysis:
+
+- This type of data is highly sensitive and poses serious risks if misused.
+- Attackers can use this information for phishing attacks, identity theft, credential stuffing, or unauthorized system access.
+
+---
+
+## TASK 6: COMPARISON WITH SURFACE WEB
+
+Observation:
+
+- Surface web search engines (like Google, Bing) index publicly accessible websites and provide structured, filtered results.
+- In contrast, dark web content is not indexed by traditional search engines and requires specialized tools like Tor and Ahmia for access.
+
+Analysis:
+
+- Dark web results often include hidden services, private forums, and sensitive datasets that are not available on the surface web.
+- This makes the dark web a unique source for intelligence gathering, but also increases complexity and risk.
+
+---
+
+## TASK 7: RISK ANALYSIS
+
+Observation:
+
+- Exposure on the dark web can lead to serious cybersecurity risks including data breaches, identity theft, and targeted attacks.
+
+Analysis:
+
+- Individuals may face account compromise, financial loss, or privacy violations.
+- Organizations may experience reputational damage, data leaks, and security incidents.
+
+Preventive Measures:
+
+- Strong password policies
+- Multi-factor authentication (MFA)
+- Regular monitoring for data breaches
+- Encryption of sensitive data
+
+---
+
+## TASK 8: LEGAL & ETHICAL UNDERSTANDING
+
+Observation:
+
+- Dark web investigations must follow strict legal and ethical guidelines.
+
+Guidelines:
+
+- Only access and analyze publicly available information.
+- Do not download, share, or interact with illegal or sensitive content.
+- Avoid creating accounts, making transactions, or engaging with unknown entities.
+- Always use a secure environment (such as a Virtual Machine) to reduce risk.
+

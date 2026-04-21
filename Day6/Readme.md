@@ -146,4 +146,75 @@ The results include both **surface web and dark web (.onion) sources**, showing 
 - Successfully performed a data search using Aleph Open Search
 - Identified that the platform provides **structured and categorized intelligence data**
 - Observed presence of **documents, records, and domain-related information**
-- Noted that some data is restricted due to **legal and privacy considerations**  
+- Noted that some data is restricted due to **legal and privacy considerations**
+---
+
+## TASK 4: FORUM INTELLIGENCE
+
+### Step-by-Step process
+- Opened Ahmia search engine using Tor Browser  
+- Searched for **"cybersecurity forum"**  
+- Observed multiple onion links in the search results  
+- Selected a safe and relevant link  
+- Opened the link and analyzed the content  
+
+---
+
+## Screenshot 1:
+Ahmia search homepage with query
+
+![Ahmia Search](./Images/Day6_Task4_01.jpg)
+
+---
+
+## Screenshot 2:
+Search results showing multiple cybersecurity-related onion links
+
+![Search Results](./Images/Day6_Task4_02.jpg)
+
+---
+
+## Screenshot 3:
+Opened cybersecurity forum/directory page
+
+![Forum Page](./Images/Day6_Task4_03.jpg)
+
+---
+
+### Observation:
+
+The search results display multiple **cybersecurity-related forums, directories, and resources** available on the dark web.
+
+The selected onion site appears to be a **forum/directory hub** that provides access to different cybersecurity communities.
+
+The page contains:
+- Listings related to **cybersecurity discussions and hacking forums**
+- Categories such as **Cybersecurity, AI Tools, Education, Financial Services**
+- Tags like **cybersecurity forum, hacker zone, dark network site**
+
+Each entry includes:
+- A brief **description of the forum or service**
+- **Tags and classifications**
+- Options like **"Open profile"** and **"Visit site"**
+
+The content indicates:
+- Availability of **discussion-based platforms**
+- Information related to **cybersecurity topics and services**
+
+User interaction can be inferred through:
+- Multiple categorized listings  
+- Updated entries with timestamps  
+- Structured tagging system  
+
+The pages loaded successfully, though slightly slow due to Tor network latency.
+
+---
+
+### Result:
+
+- Successfully searched and identified forum-related onion sites using Ahmia
+- Accessed a cybersecurity-related forum/directory page
+- Observed that dark web forums may exist as **discussion platforms or directory hubs**
+- Identified presence of **cybersecurity topics, resources, and community listings**
+- Understood how information and communities are organized in the dark web environment  
+---

@@ -30,8 +30,8 @@ Primary Target: (Own email / username used for analysis)
 **Purpose:** Identify platforms where the email is registered  
 
 **Screenshot:**
-![Holehe Execution](holehe.png)  
-![Holehe Output](holehe_used.png)
+![Holehe Execution](Images/holehe.png)  
+![Holehe Output](Images/holehe_used.png)
 
 **Observation:**
 - Multiple platform checks performed
@@ -49,8 +49,8 @@ Initial footprint of the target established
 **Purpose:** Check for breach data and leaks  
 
 **Screenshot:**
-![SpiderFoot Start](spiderfoot_start.png)  
-![SpiderFoot Dashboard](spiderfoot.png)
+![SpiderFoot Start](Images/spiderfoot_start.png)  
+![SpiderFoot Dashboard](Images/spiderfoot.png)
 
 **Observation:**
 - Scan initiated and modules executed
@@ -82,7 +82,7 @@ Used for further enumeration
 **Tool Used:** Sherlock  
 
 **Screenshot:**
-![Sherlock Output](sherlock.png)
+![Sherlock Output](Images/sherlock.png)
 
 **Observation:**
 - Accounts found on various platforms
@@ -99,9 +99,9 @@ Cross-platform identity mapping
 - Social Analyzer  
 
 **Screenshot:**
-![WhatsMyName](wnm.png)  
-![Social Analyzer Execution](social_analyser.png)  
-![Social Analyzer Output](social_analyser_output.png)
+![WhatsMyName](Images/wnm.png)  
+![Social Analyzer Execution](Images/social_analyser.png)  
+![Social Analyzer Output](Images/social_analyser_output.png)
 
 **Observation:**
 - Additional platforms discovered
@@ -116,7 +116,7 @@ Improved identity tracking
 **Technique Used:** Google Dorking  
 
 **Screenshot:**
-![Google Dorking](dorking.png)
+![Google Dorking](Images/dorking.png)
 
 **Observation:**
 - Cached or indexed results checked
@@ -130,7 +130,7 @@ Attempt to retrieve historical data
 **Tool Used:** PhoneInfoga  
 
 **Screenshot:**
-![PhoneInfoga Output](phoneinfoga.png)
+![PhoneInfoga Output](Images/phoneinfoga.png)
 
 **Observation:**
 - Carrier and region details identified
@@ -144,8 +144,8 @@ Additional identity linkage
 **Tool Used:** Recon-ng  
 
 **Screenshot:**
-![Recon Tool](recon.png)  
-![Recon Output](recon_out.png)
+![Recon Tool](Images/recon.png)  
+![Recon Output](Images/recon_out.png)
 
 **Observation:**
 - Automated modules executed
@@ -171,7 +171,7 @@ Identity relationships established
 **Tool Used:** Maltego  
 
 **Screenshot:**
-![Graph Visualization](graph.png)
+![Graph Visualization](Images/graph.png)
 
 **Observation:**
 - Nodes and connections mapped

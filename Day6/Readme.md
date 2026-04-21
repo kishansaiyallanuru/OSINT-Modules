@@ -2,7 +2,7 @@
 
 ## Task 1: Dark Web Search Engine Usage
 
-### 🔧 Objective:
+### Objective:
 To identify hidden services on the dark web using search engines.
 
 ---

@@ -79,23 +79,6 @@ GPS data helps confirm whether the image was taken at the claimed location. Miss
 
 
 
-## Step 3: Date and Time Verification  
-
-**What I did:**  
-I compared metadata time with the claimed timeline.
-
-**Screenshot:**  
-![Step 3](Images/Step3_Time_Verification.png)
-
-**What I observed:**  
-- Metadata date vs claimed date  
-- Possible mismatch due to incorrect device clock  
-
-**What I understood:**  
-Camera timestamps are not always reliable and must be validated with other evidence.
-
-
-
 ## Step 4: Reverse Image Search (Origin Detection – First Pass)  
 
 **Tool I used:**  
@@ -161,17 +144,6 @@ ELA helps detect tampering or manipulation.
 
 **What I did:**  
 I manually analyzed the image.
-
-**Screenshot:**  
-![Step 7](Images/Step7.png)
-
-**What I observed:**  
-- Terrain (forest, hills, plains)  
-- Vegetation type  
-- Road structure  
-- Language on signboards  
-- Building styles  
-- Skyline or mountains  
 
 **What I understood:**  
 Visual clues help estimate location when metadata is missing.

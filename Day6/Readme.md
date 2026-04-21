@@ -98,4 +98,52 @@ Opened website homepage
 - Successfully accessed and analyzed a working onion website
 - Identified that the site is an **informational cybersecurity blog**
 - Observed that dark web sites can also host **legitimate and structured content**
-- Verified that Tor browsing may be slower but functional  
+- Verified that Tor browsing may be slower but functional
+
+---
+## TASK 3: DATA SEARCH USING ALEPH
+
+### Step-by-Step
+- Opened a normal web browser (not Tor)
+- Navigated to Aleph Open Search platform
+- Entered the keyword **"education"** in the search bar
+- Viewed the generated results
+
+---
+
+## Screenshot 4:
+Search results page
+
+![Aleph Search](./Images/Day6_Task3_01.jpg)
+
+---
+
+### Observation:
+
+- The search results include **structured data such as documents, domain names, and organizational records**.
+
+The platform displays:
+- **Indexed documents** from various sources  
+- **Domain-related information** (e.g., websites and databases)  
+- **Timestamps and metadata** for each result  
+- Indicators showing **data source and country origin**
+
+The left panel provides filtering options such as:
+- Document type (e.g., text documents)  
+- Sort type (e.g., fresh/latest data)  
+- Related domains count  
+
+Some parts of the data are **obfuscated (hidden)** due to legal restrictions, indicating controlled access to sensitive datasets.
+
+The interface is **professional and investigative in nature**, designed for data analysis and intelligence gathering.
+
+The results include both **surface web and dark web (.onion) sources**, showing cross-platform data indexing.
+
+---
+
+### Result:
+
+- Successfully performed a data search using Aleph Open Search
+- Identified that the platform provides **structured and categorized intelligence data**
+- Observed presence of **documents, records, and domain-related information**
+- Noted that some data is restricted due to **legal and privacy considerations**  

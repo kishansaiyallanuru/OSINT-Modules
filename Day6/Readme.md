@@ -69,7 +69,7 @@ Search results showing .onion links.
 ## Screenshot 2:
 Opened website homepage
 
-![Onion Website](.Images/Day6_Task2_01.jpg)
+![Onion Website](./Images/Day6_Task2_01.jpg)
 
 ---
 
